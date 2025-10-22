@@ -1,0 +1,29 @@
+/* hide scrollbar for elements with .no-scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+.testimonial-slider .slick-dots li button:before {
+  font-size: 12px;
+  color: #ffa740;
+}
+
+.testimonial-slider .slick-dots li.slick-active button:before {
+  color: #ffa740;
+}
+
+.testimonial-slider .slick-prev,
+.testimonial-slider .slick-next {
+  z-index: 1;
+}
+
+.testimonial-slider .slick-prev {
+  left: -25px;
+}
+
+.testimonial-slider .slick-next {
+  right: -25px;
+}
