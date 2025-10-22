@@ -3,6 +3,7 @@ import Banner from "./Components/Banner";
 import Features from "./Components/Features";
 import Navber from "./Components/Navber";
 import Service from "./Components/Service";
+import WorkHard from "./Components/WorkHard";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </div>
         <Service />
         <Features />
+        <WorkHard />
       </div>
     </>
   );
