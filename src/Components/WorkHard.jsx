@@ -1,6 +1,6 @@
 import featureImg from "../../public/Images/WorkHard/img.png";
 import emojiIcon from "../../public/Images/WorkHard/emoji.png";
-import checkIcon from "../../public/Images/WorkHard/Combined Shape 16072.png";
+import checkIcon from "../../public/Images/WorkHard/Combined.png";
 import groupIcon from "../../public/Images/WorkHard/Group.png";
 
 const WorkHard = () => {
