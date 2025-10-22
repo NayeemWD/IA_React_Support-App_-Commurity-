@@ -1,6 +1,9 @@
+// Service component to display support service cards
 const Service = () => {
   return (
+    // Main container with flex layout
     <div className="flex items-center justify-center gap-10 my-24">
+      {/* First service card with white background */}
       <div className="flex gap-6 w-[540px] p-10  shadow-md">
         <div>
           <img
@@ -21,6 +24,7 @@ const Service = () => {
         </div>
       </div>
 
+      {/* Second service card with light background */}
       <div className="flex gap-6 w-[540px] p-10  bg-[#F6F8FB]">
         <div>
           <img
