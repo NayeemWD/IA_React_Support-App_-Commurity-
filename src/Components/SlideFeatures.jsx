@@ -1,14 +1,13 @@
+import tabSectionImg from "../../public/Images/SlideFeatures/tab section.png";
+import maskGroupImg from "../../public/Images/SlideFeatures/Mask Group.png";
+
 const SlideFeatures = () => {
   return (
     // Main container with dark background
     <div className="bg-[#353448] pt-16 grid justify-end ">
       <div className="container ">
         {/* Tab navigation image */}
-        <img
-          className="mb-10"
-          src="../../public/Images/SlideFeatures/tab section.png"
-          alt="tab navigation"
-        />
+        <img className="mb-10" src={tabSectionImg} alt="tab navigation" />
         {/* Two-column layout container */}
         <div className="flex items-center justify-between gap-10">
           {/* Left column - Content section */}
@@ -34,7 +33,7 @@ const SlideFeatures = () => {
           <div className="">
             <img
               className="w-full"
-              src="../../public/Images/SlideFeatures/Mask Group.png"
+              src={maskGroupImg}
               alt="dashboard preview"
             />
           </div>

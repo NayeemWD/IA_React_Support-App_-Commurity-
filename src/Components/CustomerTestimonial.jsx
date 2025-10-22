@@ -2,54 +2,62 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import testimonialImg1 from "../../public/Images/CustomerTestimonial/img (1).png";
+import testimonialImg2 from "../../public/Images/CustomerTestimonial/img (2).png";           
+import testimonialImg3 from "../../public/Images/CustomerTestimonial/img (3).png";           
+import testimonialImg4 from "../../public/Images/CustomerTestimonial/img (4).png";           
+import testimonialImg5 from "../../public/Images/CustomerTestimonial/img (5).png";       
+import testimonialImg6 from "../../public/Images/CustomerTestimonial/img (6).png";           
+import testimonialImg7 from "../../public/Images/CustomerTestimonial/img (7).png";           
+
 const CustomerTestimonial = () => {
   const testimonials = [
     {
       text: "Many thanks for your kind and efficient service. I would like to take this opportunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.",
       name: "Cherice Justin",
       handle: "@chericeJ",
-      img: "../../public/Images/CustomerTestimonial/img (1).png",
+      img: testimonialImg1,
     },
     {
       text: "I would like to take this opportunity to thank SA Places for the great service rendered to us and in particular Estelle.",
       name: "Minnie Horn",
       handle: "@minnieH",
-      img: "../../public/Images/CustomerTestimonial/img (2).png",
+      img: testimonialImg2,
     },
     {
       text: "I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me.",
       name: "Veona Watson",
       handle: "@veonaW",
-      img: "../../public/Images/CustomerTestimonial/img (3).png",
+      img: testimonialImg3,
     },
     {
       text: "Many thanks for your kind and efficient service. I have used your services already and will definitely continue to recommend your services.",
       name: "Merlyn Manley",
       handle: "@merlynM",
-      img: "../../public/Images/CustomerTestimonial/img (4).png",
+      img: testimonialImg4,
     },
     {
       text: "Thank you for all your help. Your service was excellent and very fast. The online booking and follow-up were highly efficient.The online booking and follow-up were highly efficient.",
       name: "Cherice Justin",
       handle: "@chericeJ",
-      img: "../../public/Images/CustomerTestimonial/img.png",
+      img: testimonialImg5,
     },
     {
       text: "I would like to take this opportunity to thank SA Places for the great service rendered to us and in particular Estelle.",
       name: "Minnie Horn",
       handle: "@minnieH",
-      img: "../../public/Images/CustomerTestimonial/img (4).png",
+      img: testimonialImg4,
     },
     {
       text: "I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I  to book through an agency instead of directly. Thank you",
       handle: "@veonaW",
-      img: "../../public/Images/CustomerTestimonial/img (6).png",
+      img: testimonialImg6,
     },
     {
       text: "For our recent trip to S.A. I booked several accommodation thru SA Places. I just wanted to tey quick and professional. I hope I have the opportunity to re-visit South Africa soon, I will then make my bookings with your company again. I will also recommend",
       name: "Merlyn Manley",
       handle: "@merlynM",
-      img: "../../public/Images/CustomerTestimonial/img (7).png",
+      img: testimonialImg7,
     },
   ];
 

@@ -1,3 +1,7 @@
+import featureImg from "../../public/Images/Features/img.png";
+import emojiImg from "../../public/Images/Features/emoji.png";
+import formaImg from "../../public/Images/Features/Forma 1.png";
+
 const Features = () => {
   return (
     <div className="container mx-auto px-6 ">
@@ -5,11 +9,7 @@ const Features = () => {
       <div className="flex items-center justify-between ">
         {/* Left column - Feature illustration */}
         <div className="w-1/2">
-          <img
-            className=""
-            src="../../public/Images/Features/img.png"
-            alt="features illustration"
-          />
+          <img className="" src={featureImg} alt="features illustration" />
         </div>
 
         {/* Right column - Feature content */}
@@ -17,11 +17,7 @@ const Features = () => {
           {/* Main heading with emoji */}
           <h1 className="text-5xl w-11/12 font-bold  items-center leading-16">
             Meet our premium features that will make you wow
-            <img
-              className=" inline-block ml-4 "
-              src="../../public/Images/Features/emoji.png"
-              alt="emoji"
-            />
+            <img className=" inline-block ml-4 " src={emojiImg} alt="emoji" />
           </h1>
 
           {/* Description text */}
@@ -49,21 +45,13 @@ const Features = () => {
               <h2 className="text-xl font-bold">
                 Collaborate your multiple team support easily
               </h2>
-              <img
-                className="w-6"
-                src="../../public/Images/Features/Forma 1.png"
-                alt="arrow"
-              />
+              <img className="w-6" src={formaImg} alt="arrow" />
             </div>
             <div className="flex w-11/12 items-center justify-between py-4 px-6 bg-[#F6F8FB]  rounded-xl">
               <h2 className="text-xl font-bold">
                 Build your team's knowledge base system
               </h2>
-              <img
-                className="w-6"
-                src="../../public/Images/Features/Forma 1.png"
-                alt="arrow"
-              />
+              <img className="w-6" src={formaImg} alt="arrow" />
             </div>
           </div>
         </div>

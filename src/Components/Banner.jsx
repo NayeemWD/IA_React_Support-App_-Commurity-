@@ -1,13 +1,14 @@
+import bannerGroup from "../../public/Images/Banner/Group.png";
+import paypalLogo from "../../public/Images/Banner/paypal.png";
+import googleLogo from "../../public/Images/Banner/google.png";
+import dropboxLogo from "../../public/Images/Banner/Dropbox_logo_2017.png";
+
 const Banner = () => {
   return (
     <div className="bg-[#FFFCF7] ">
       <div className="card  lg:card-side  flex-row-reverse ">
         <figure className="w-1/2 mb-10">
-          <img
-            className=""
-            src="../../public/Images/Banner/Group.png"
-            alt="Album"
-          />
+          <img className="" src={bannerGroup} alt="Banner illustration" />
         </figure>
         <div className="card-body pt-0 pr-0 mr-8 flex-col w-1/2">
           <h2 className="card-title font-bold text-6xl pb-9 leading-20">
@@ -52,12 +53,9 @@ const Banner = () => {
           <div className="flex items-center gap-2 mt-4 pt-4">
             <p className="text-gray-400 grow-0 ">Sponsored by:</p>
             <div className="flex gap-6">
-              <img src="../../public/Images/Banner/paypal.png" alt="" />
-              <img src="../../public/Images/Banner/google.png" alt="" />
-              <img
-                src="../../public/Images/Banner/Dropbox_logo_2017.png"
-                alt=""
-              />
+              <img src={paypalLogo} alt="PayPal" />
+              <img src={googleLogo} alt="Google" />
+              <img src={dropboxLogo} alt="Dropbox" />
             </div>
           </div>
         </div>

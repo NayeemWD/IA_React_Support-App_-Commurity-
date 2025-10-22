@@ -1,3 +1,7 @@
+import toggleIcon from "../../public/Images/PricingPlan/Group 85.png";
+import checkIcon from "../../public/Images/PricingPlan/Combined Shape 16072.png";
+import groupIcon from "../../public/Images/PricingPlan/Group.png";
+
 const PricingPlan = () => {
   return (
     <div className=" pt-20 bg-[#F9FAFC]">
@@ -12,10 +16,7 @@ const PricingPlan = () => {
         <p className="flex items-center gap-3 text-lg">
           Monthly Plan
           <span className="inline-block w-12">
-            <img
-              src="../../public/Images/PricingPlan/Group 85.png"
-              alt="toggle"
-            />
+            <img src={toggleIcon} alt="toggle" />
           </span>
           Annual Plan
         </p>
@@ -36,10 +37,7 @@ const PricingPlan = () => {
           <ul class=" space-y-2 ">
             <li class="flex  gap-2">
               <span>
-                <img
-                  src="../../public/Images/PricingPlan/Combined shape 16072.png"
-                  alt=""
-                />
+                <img src={checkIcon} alt="check mark" />
               </span>
               <span className="w-10/12">
                 Ultimate access to all course, exercises and assessmentsn
@@ -47,7 +45,7 @@ const PricingPlan = () => {
             </li>
             <li class="flex  gap-2">
               <span>
-                <img src="../../public/Images/PricingPlan/Combined shape 16072.png" />
+                <img src={checkIcon} alt="check mark" />
               </span>
               <span className="w-10/12">
                 Free acess for all kind of exercise corrections with downloads.
@@ -55,7 +53,7 @@ const PricingPlan = () => {
             </li>
             <li class="flex items-center gap-2">
               <span>
-                <img src="../../public/Images/PricingPlan/Combined shape 16072.png" />
+                <img src={checkIcon} alt="check mark" />
               </span>
               <span className="w-10/12">
                 Total assessment corrections with free download access system
@@ -63,7 +61,7 @@ const PricingPlan = () => {
             </li>
             <li class="flex items-center gap-2">
               <span>
-                <img src="../../public/Images/PricingPlan/Group.png" />
+                <img src={groupIcon} alt="group icon" />
               </span>
               <span className="w-10/12">
                 Unlimited download of courses on the mobile app contents
@@ -89,10 +87,7 @@ const PricingPlan = () => {
           <ul className="space-y-2">
             <li className="flex gap-2">
               <span>
-                <img
-                  src="../../public/Images/PricingPlan/Combined shape 16072.png"
-                  alt=""
-                />
+                <img src={checkIcon} alt="check mark" />
               </span>
               <span className="w-10/12">
                 Ultimate access to all course, exercises and assessments
@@ -100,7 +95,7 @@ const PricingPlan = () => {
             </li>
             <li className="flex gap-2">
               <span>
-                <img src="../../public/Images/PricingPlan/Combined shape 16072.png" />
+                <img src={checkIcon} alt="check mark" />
               </span>
               <span className="w-10/12">
                 Free acess for all kind of exercise corrections with downloads.
@@ -108,7 +103,7 @@ const PricingPlan = () => {
             </li>
             <li className="flex gap-2">
               <span>
-                <img src="../../public/Images/PricingPlan/Combined shape 16072.png" />
+                <img src={checkIcon} alt="check mark" />
               </span>
               <span className="w-10/12">
                 Total assessment corrections with free download access system
@@ -116,7 +111,7 @@ const PricingPlan = () => {
             </li>
             <li className="flex gap-2">
               <span>
-                <img src="../../public/Images/PricingPlan/Combined shape 16072.png" />
+                <img src={checkIcon} alt="check mark" />
               </span>
               <span className="w-10/12">
                 Unlimited download of courses on the mobile app contents

@@ -1,11 +1,12 @@
 import React from "react";
+import logoImg from "../../public/Images/Footer/S 1.png";
 
 const Footer = () => {
   return (
     <div>
       <footer className="footer sm:footer-horizontal bg-[#252438] text-neutral-content items-center p-4 px-64">
         <aside className="grid-flow-col items-center pl-2">
-          <img src="../../public/Images/Footer/S 1.png" alt="" />
+          <img src={logoImg} alt="logo" />
 
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </aside>

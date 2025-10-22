@@ -1,3 +1,7 @@
+import navLogo from "../../public/Images/Naver/S 1.png";
+import searchIcon from "../../public/Images/Naver/search.png";
+import lockIcon from "../../public/Images/Naver/lock.png";
+
 const Navber = () => {
   return (
     <div>
@@ -42,7 +46,7 @@ const Navber = () => {
             </ul>
           </div>
           <div className="flex">
-            <img src="../../public/Images/Naver/S 1.png" alt="" />
+            <img src={navLogo} alt="startup logo" />
             <a className="btn btn-ghost text-2xl font-bold">StartupLand</a>
           </div>
         </div>
@@ -64,16 +68,12 @@ const Navber = () => {
             <li>
               <a>About</a>
             </li>
-            <img
-              className="p-2"
-              src="../../public/Images/Naver/search.png"
-              alt=""
-            />
+            <img className="p-2" src={searchIcon} alt="search icon" />
           </ul>
         </div>
         <div className="navbar-end gap-4">
           <a className="btn gap-3 bg-[#FFFCF7] border-none">
-            <img src="../../public/Images/Naver/lock.png" alt="" />
+            <img src={lockIcon} alt="lock icon" />
             Login
           </a>
           <a className="btn bg-[#FFF0D7] text-[#E5A740] border-none">
