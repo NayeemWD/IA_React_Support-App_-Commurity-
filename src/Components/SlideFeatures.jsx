@@ -1,7 +1,7 @@
 const SlideFeatures = () => {
   return (
     // Main container with dark background
-    <div className="bg-[#353448] pt-16 pl-40">
+    <div className="bg-[#353448] pt-16 grid justify-end ">
       <div className="container ">
         {/* Tab navigation image */}
         <img

@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./Components/Banner";
 import Features from "./Components/Features";
 import Navber from "./Components/Navber";
+import PricingPlan from "./Components/PricingPlan";
 import Service from "./Components/Service";
 import SlideFeatures from "./Components/SlideFeatures";
 import WorkHard from "./Components/WorkHard";
@@ -18,6 +19,7 @@ function App() {
         <Features />
         <WorkHard />
         <SlideFeatures />
+        <PricingPlan />
       </div>
     </>
   );
