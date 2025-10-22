@@ -2,10 +2,12 @@ import "./App.css";
 import Banner from "./Components/Banner";
 import CustomerTestimonial from "./Components/CustomerTestimonial";
 import Features from "./Components/Features";
+import Footer from "./Components/Footer";
 import Navber from "./Components/Navber";
 import PricingPlan from "./Components/PricingPlan";
 import Service from "./Components/Service";
 import SlideFeatures from "./Components/SlideFeatures";
+import Subscribe from "./Components/Subscribe";
 import WorkHard from "./Components/WorkHard";
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <SlideFeatures />
         <PricingPlan />
         <CustomerTestimonial />
+        <Subscribe />
+        <Footer />
       </div>
     </>
   );
