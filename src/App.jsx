@@ -3,6 +3,7 @@ import Banner from "./Components/Banner";
 import Features from "./Components/Features";
 import Navber from "./Components/Navber";
 import Service from "./Components/Service";
+import SlideFeatures from "./Components/SlideFeatures";
 import WorkHard from "./Components/WorkHard";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Service />
         <Features />
         <WorkHard />
+        <SlideFeatures />
       </div>
     </>
   );
