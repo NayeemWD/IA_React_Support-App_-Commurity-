@@ -1,6 +1,6 @@
 const WorkHard = () => {
   return (
-    <div className="container mx-auto px-6 mt-36">
+    <div className="container mx-auto px-6 mt-36 mb-30">
       {/* Two-column layout container */}
       <div className="flex flex-row-reverse items-center justify-between ">
         {/* Left column - Feature illustration */}
@@ -32,27 +32,57 @@ const WorkHard = () => {
           <div>
             <ul class="grid grid-cols-2 gap-y-2 gap-x-8">
               <li class="flex items-center gap-2">
-                <span ><img src="../../public/Images/WorkHard/Combined shape 16072.png" alt="" /></span>
+                <span>
+                  <img
+                    src="../../public/Images/WorkHard/Combined shape 16072.png"
+                    alt=""
+                  />
+                </span>
                 <span>Medical and vision</span>
               </li>
               <li class="flex items-center gap-2">
-                <span ><img src="../../public/Images/WorkHard/Combined shape 16072.png" alt="" /></span>
+                <span>
+                  <img
+                    src="../../public/Images/WorkHard/Combined shape 16072.png"
+                    alt=""
+                  />
+                </span>
                 <span>HSAs and FSAs</span>
               </li>
               <li class="flex items-center gap-2">
-                <span ><img src="../../public/Images/WorkHard/Combined shape 16072.png" alt="" /></span>
+                <span>
+                  <img
+                    src="../../public/Images/WorkHard/Combined shape 16072.png"
+                    alt=""
+                  />
+                </span>
                 <span>Life insurance</span>
               </li>
               <li class="flex items-center gap-2">
-                <span ><img src="../../public/Images/WorkHard/Combined shape 16072.png" alt="" /></span>
+                <span>
+                  <img
+                    src="../../public/Images/WorkHard/Combined shape 16072.png"
+                    alt=""
+                  />
+                </span>
                 <span>Commuter benefits</span>
               </li>
               <li class="flex items-center gap-2">
-                <span ><img src="../../public/Images/WorkHard/Combined shape 16072.png" alt="" /></span>
+                <span>
+                  <img
+                    src="../../public/Images/WorkHard/Combined shape 16072.png"
+                    alt=""
+                  />
+                </span>
                 <span>401(k) savings</span>
               </li>
               <li class="flex items-center gap-2">
-                <span ><img src="../../public/Images/WorkHard/Combined shape 16072.png" alt="" /></span>
+                <span>
+                  <img
+                    src="../../public/Images/WorkHard/Combined shape 16072.png"
+                    alt=""
+                  />
+                </span>
                 <span>529 college savings</span>
               </li>
             </ul>
